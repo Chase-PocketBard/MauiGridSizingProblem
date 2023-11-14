@@ -34,7 +34,7 @@
                             <Grid
                                 RowDefinitions="*, 50">
                                 <Image
-                                    Aspect="AspectFill"
+                                    Aspect="AspectFit"
                                     Source="{Binding ImageUrl}" />
                                 <Label
                                     HorizontalOptions="Center"
