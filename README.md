@@ -70,8 +70,10 @@ Actual Result: Grid cells are resized horizontally, but maintain their vertical 
 
 #### ✖️ Issue 1
 Expected Result: As items load images, `GridItemsView` cells are resized to accommodate images (including at startup)
+
 Actual Result: Images are shown, but are warped in height (as if it's trying to display them at "actual" scale, rather than a pixel-density-appropriate scale?)
 
 #### ✖️ Issue 2
 Expected Result: As device orientation changes, grid items maintain their relative proportions, while the entire grid container resizes to fit the new allocated space
+
 Actual Result: Grid cells are resized horizontally, but maintain their height, changing the height/width ratio of their contents.
