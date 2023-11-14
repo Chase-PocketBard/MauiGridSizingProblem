@@ -63,6 +63,10 @@ Expected Result: As screen size changes, grid items maintain their relative prop
 
 Actual Result: Grid cells are resized horizontally, but maintain their vertical space, changing the height/width their contents to fit.
 
+#### Video
+
+https://github.com/Chase-PocketBard/MauiGridSizingProblem/assets/115745354/66580846-0acb-4ff5-a718-69ca8009092f
+
 ### iOS
 1. Run on iOS Simulator or device
 2. (Optional) Scroll down and load a few extra items
@@ -77,3 +81,8 @@ Actual Result: Images are shown, but are warped in height (as if it's trying to 
 Expected Result: As device orientation changes, grid items maintain their relative proportions, while the entire grid container resizes to fit the new allocated space
 
 Actual Result: Grid cells are resized horizontally, but maintain their height, changing the height/width ratio of their contents.
+
+#### Video
+
+https://github.com/Chase-PocketBard/MauiGridSizingProblem/assets/115745354/7a820175-cd23-4c1c-9eb7-22567bef64c1
+
